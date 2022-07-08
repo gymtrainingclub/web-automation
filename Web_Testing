@@ -1,0 +1,39 @@
+Categories	Negative	
+Precondition :	Akses https://qa.alta.id/	
+No	Test Step	
+1	Melakukan click pada text field pencarian	Menampilkan kursor penginputan
+2	Memasukkan kategori yang diinginkan	Menampilkan inputan user
+3	Tekan Enter	Product tidak ditampilkan dan muncul pesan error "Products is empty! "
+		
+Scenario : Product Detail		
+TC 12	View Detail of a Product	
+Categories	Positive	
+Precondition :	Akses https://qa.alta.id/	
+No	Test Step	
+1	Melakukan click pada tombol detail product yang diinginkan	Menampilkan detail product
+		
+Scenario : Product Buying		
+TC 13	Buying a Product	
+Categories	Positive	
+Precondition :	Akses https://qa.alta.id/	
+No	Test Step	
+1	Melakukan click pada tombol buy pada product yang diinginkan	Berhasil memasukan product ke keranjang
+2	Klik tombol cart	Menampilkan halaman cart
+3	Klik Bayar	Berhasil melakukan pembayaran dan data pembelian masuk ke menu transaction
+		
+Scenario : Transaction		
+TC 14	Viewing a Transaction	
+Categories	Positive	
+Precondition :	Akses https://qa.alta.id/	
+No	Test Step	
+1	Melakukan klik pada profile	Menampilkan pilihan menu pada profile
+2	Klik Transaction	Berhasil melakukan menampilkan transaksi yang pernah dibuat
+		
+Scenario : Sorting		
+TC 15	Melakukan sorting pada product	
+Categories	Positive	
+Precondition :	Akses https://qa.alta.id/	
+No	Test Step	
+1	Melakukan klik pada profile	Menampilkan pilihan menu pada profile
+2	Klik Transaction	Berhasil melakukan menampilkan transaksi yang pernah dibuat
+3	Melakukan klik pada product	Product berhasil berubah urutannya ascending to descending
